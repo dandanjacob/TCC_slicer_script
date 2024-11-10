@@ -14,10 +14,10 @@ Este repositório contém a implementação de um método para fatiamento de obj
 
 ## 📂 Repository Structure
 
-- `notebooks/automatic_slicer.ipynb`: Notebook Jupyter com a implementação Python para fatiamento e extração de nuvens de pontos.
-- `data/`: Diretório para armazenar nuvens de pontos geradas e objetos de teste.
-- `results/`: Pasta contendo exemplos de saída, incluindo nuvens de pontos e modelos reconstruídos.
-- `docs/`: Documentação adicional e materiais de pesquisa relacionados.
+- `automatic_slicer.ipynb`: Notebook Jupyter com a implementação Python para fatiamento e extração de nuvens de pontos.
+- `blender_arquives/`: Diretório para armazenar objetos 3D do blender.
+- `planes_intersections/`: Onde estão as pastas que contém as seções fatiadas dos objetos.
+- `meshlab_arquives/`: Arquivos `.ply` contendo nuvem de pontos.
 
 ---
 
@@ -37,11 +37,12 @@ Este repositório contém a implementação de um método para fatiamento de obj
 ## 🚀 How to Use
 
 1. **Prepare Your 3D Model:**
-   - Carregue seu modelo 3D no Blender.
+   - Tenha seu modelo 3D originário do blender.
    - Certifique-se de que está escalado e posicionado corretamente para o fatiamento.
 
 2. **Run the Slicing Script:**
-   - Abra `automatic_slicer.ipynb` e configure os parâmetros de fatiamento (e.g., espaçamento entre planos, diretório de saída).
+   - Abra `automatic_slicer.ipynb` e configure os parâmetros de fatiamento (e.g., espaçamento entre planos, diretório de saída e nome do objeto).
+   - Importante: o nome do objeto e o nome do arquivo devem ser os mesmos.
    - Execute o script para gerar fatias 2D e extrair a nuvem de pontos.
 
 3. **Visualize Results:**
@@ -51,13 +52,11 @@ Este repositório contém a implementação de um método para fatiamento de obj
 
 ## 📊 Results and Comparisons
 
-O método foi testado em diversos modelos, como:
+O método foi testado em diversos, como:
 - Stanford Bunny
 - Teapot
 - Cow
-
-O projeto destaca-se pela precisão na detecção de bordas e reconstrução, mas apresenta limitações na captura de variações bruscas de superfície e cavidades internas.
-
+Em virtude da limitação de armazenamento do github, somente o teste em Bunny Stanford foi enviado.
 ---
 
 ## 🛠️ Future Work
@@ -65,9 +64,4 @@ O projeto destaca-se pela precisão na detecção de bordas e reconstrução, ma
 - Integrar orientações adicionais de fatiamento (e.g., sagital, coronal) para reconstruções mais abrangentes.
 - Explorar técnicas avançadas de interpolação e aprendizado de máquina para melhorar a detecção de bordas e a qualidade da superfície.
 
----
-
-## 📝 Citation
-
-Se você usar este código ou método em seu trabalho, por favor, cite:
 
