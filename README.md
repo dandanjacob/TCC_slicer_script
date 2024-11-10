@@ -1,6 +1,7 @@
 # Slicing and 3D Model Reconstruction
 
 Este repositório contém a implementação de um método para fatiamento de objetos tridimensionais e extração de nuvens de pontos a partir de coleções de imagens paralelas. O projeto faz parte do Trabalho de Conclusão de Curso (TCC) intitulado **"Um estudo sobre fatiamento e reconstrução de modelos 3D"**, desenvolvido por Daniel Jacob Tonn na FGV/EMAp.
+Em virtude das limitações de espaço, apenas um dos testes presentes no arquivo pdf se encontram disponíveis no repositório. É posível rodar localmente com os mesmos arquivos testados afim de averiguar os resultados.
 
 ## 📖 Overview
 
