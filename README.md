@@ -53,7 +53,7 @@ Em virtude das limitações de espaço, apenas um dos testes presentes no arquiv
 
 ## 📊 Results and Comparisons
 
-O método foi testado em diversos, como:
+O método foi testado em alguns repositórios, como:
 - Stanford Bunny
 - Teapot
 - Cow
